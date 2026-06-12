@@ -1,0 +1,25 @@
+# .gitignore for Python Project
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
+
+# 虚拟环境 (如果你在项目里建了 venv)
+venv/
+.env
+
+# IDE 配置 (VS Code / PyCharm)
+.vscode/
+.idea/
+
+# ⚠️ 重要：忽略大文件和数据集
+# GitHub 限制单文件 100MB，且不建议上传大数据集
+data/*.json
+# 如果你使用了大模型权重文件，千万不要上传
+*.bin
+*.pth
+*.safetensors
+models/

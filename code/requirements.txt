@@ -1,0 +1,11 @@
+streamlit
+datasets
+requests
+tqdm
+huggingface-hub
+torch
+transformers
+numpy
+scikit-learn
+rank-bm25
+nltk
